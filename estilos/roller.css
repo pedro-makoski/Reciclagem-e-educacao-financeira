@@ -1,0 +1,43 @@
+.roller {
+    margin-bottom: 50px;
+    background-color: rgb(223, 223, 223);
+    padding: 10px 0;
+    width: 16000px;
+}
+
+.roller .itens_roller {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    animation: leftroller 20s linear 0s infinite normal none running;
+}
+
+.roller .bola {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: var(--cor-h3);
+    position: relative;
+}
+
+.roller p {
+    text-wrap: nowrap;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: var(--cor-h1);
+    font-family: var(--fonte-titulo);
+    user-select:none;
+    width: fit-content;
+}
+
+
+@keyframes leftroller {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-50vw);
+    }
+}

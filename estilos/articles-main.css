@@ -1,0 +1,418 @@
+section.lixosreciclaveis article > h2 {
+    font-size: min(10em, 10vw);
+    line-height: 1em;
+    font-family: var(--fonte-titulo);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--cor-h2);
+    margin: 30px;
+    position: relative;
+    width: max-content;
+    margin: auto;
+}
+
+article#papel > h2 {
+    font-size: min(6em, 7vw);
+}
+
+section.lixosreciclaveis article > .duas-colunas {
+    display: flex;
+    width: 100%;
+}
+
+.duas-colunas p {
+    width: 90%;
+}
+
+section.lixosreciclaveis .duas-colunas > img {
+    width: 40%;
+    object-fit: contain;
+}
+
+section.lixosreciclaveis article > .duas-colunas h3 {
+    font-size: min(3em, 4vw);
+    color: var(--cor-h3);
+    margin: 10px 0;
+}
+
+
+section.lixosreciclaveis article section > h3{
+    font-size: 3em;
+    color: var(--cor-h3);
+    margin: 10px;
+}
+
+h4 {
+    font-size: 2em;
+    color: var(--cor-h4);
+}
+
+.itens_carrossel {
+    position: relative;
+}
+
+section.lixosreciclaveis .graficos {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+    overflow: scroll;
+    border-radius: var(--border-radius-padrao);
+
+    width: 97%;
+    position: relative;
+}
+
+
+section.lixosreciclaveis .graficos::-webkit-scrollbar {
+    width: 1px;
+}
+  
+section.lixosreciclaveis .graficos::-webkit-scrollbar-thumb {
+   background-color: transparent;
+}
+
+section.lixosreciclaveis .graficos .grafico {
+    border: 2px solid var(--cor-borda-produto-preco);
+    padding: 10px;
+
+    flex:0 0 95%;
+    height: auto;    
+
+    border-radius: var(--border-radius-padrao);
+}
+
+.button_space:last-child {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    right: 1%;
+    top: 0;
+    padding: 0 50px;
+    align-items: center;
+    z-index: 2;
+}
+
+.button_space:first-child {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    left: 1%;
+    top: 0;
+    padding: 0 50px;
+    align-items: center;
+    z-index: 2;
+}
+
+.right {
+    border: 2px solid var(--cor-borda-produto-preco);
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 4px 2px;
+    height: 40px;
+    z-index: 3;
+}
+
+.left {
+    border: 2px solid var(--cor-borda-produto-preco);
+    background: white;
+    align-items: center;
+    padding: 4px 10px;
+    height: 40px;
+    z-index: 3;
+    display: none;
+}
+
+.itens_carrossel .button_space button {
+    opacity: 0;
+    
+    transition: .2s ease-in-out;
+}
+
+.itens_carrossel .button_space:hover button, .button_space:has(~ .button_space:hover) button, .button_space:hover ~ .button_space button{
+    opacity: 1;
+    transition: .2s ease-in-out;
+}
+
+.itens_carrossel:has(.precos, .exemplos-locais) .button_space {
+    display: none;
+}
+
+.left span {
+    width: 10px;
+}
+
+
+div.grafico img {
+    width: 90%;
+    height: 80%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+div.grafico img.imagem-vertical {
+    height: 90%;
+    width: 55%;
+}
+
+#taxalixoplasticobr img {
+    margin: 0;
+}
+
+section.lixosreciclaveis > article > img {
+    display: block;
+    width: 600px;
+    margin: auto;
+    mix-blend-mode: multiply;
+}
+
+.imagem-complementar {
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-image: var(--imagem-pequena);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+.img-comp1-metal {
+    right: 94%;
+    bottom: 0;
+}
+
+.img-comp2-metal {
+    transform: rotate(-30deg);
+    left: 95%;
+    bottom: 50%;
+}
+
+.img-comp1-papel {
+    transform: rotate(-40deg);
+    right: 97%;
+    bottom: 0;
+}
+
+.img-comp2-papel {  
+    transform: rotate(-30deg);
+    left: 97%;
+    bottom: 50%;
+}
+
+.img-comp1-plastico {
+    transform: rotate(-40deg); 
+    right: 94%;
+    bottom: 0;
+}
+
+.img-comp2-plastico {
+    transform: rotate(-30deg);
+    left: 95%;
+    bottom: 50%;
+}
+
+.img-comp1-vidro {
+    transform:rotate(-40deg); 
+    right: 94%;
+    bottom: 0;
+}
+
+.img-comp2-vidro {
+    transform: rotate(-30deg);
+    left: 95%;
+    bottom: 50%;
+}
+
+.precos {
+    background-color: var(--cor-prenchimento-prodpreco);
+    display: flex;
+    justify-content: space-between;
+    height: 444px;
+}
+
+.produto-preco .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    text-wrap: nowrap;
+    padding-right: 20px;
+}
+
+.produto-preco .about strong {
+    font-size: 1.5em;
+}
+
+.precos .produto-preco img {
+    width: 450px;
+    object-fit: cover;  
+    transition: .2s;
+}
+
+.precos:not(.menor) .produto-preco:hover img, .precos:not(.menor) .produto-preco:focus img{
+    width: 350px;
+    transition: .2s;
+}
+
+article .menor {
+    justify-content: center;
+}
+
+.precos .produto-preco .about > h4{
+    text-wrap: wrap;
+    word-wrap: break-word;
+    width: 200px;
+}
+
+.precos .produto-preco {
+    display: flex;
+    border-left: 2px solid var(--cor-borda-produto-preco);
+    gap: 10px;
+    flex-basis: 20%;
+    flex-grow: 1;
+    
+    overflow: hidden;
+}
+
+body:not(.javascripton) .precos .produto-preco {
+    transition: .2s ease-in-out;
+}
+
+.precos:is(.menor) .produto-preco{
+    flex-grow: 0;
+    flex-basis: 400px;
+
+    transition: .2s ease-in-out;
+
+}
+
+.precos .produto-preco:last-child {
+    border-right: 2px solid var(--cor-borda-produto-preco);
+}
+
+.precos:not(.menor) .produto-preco.animate:hover, .precos:not(.menor) .produto-preco:focus:not(:hover){
+    flex-basis: 30%;
+    transition: .2s ease-in-out;
+}
+
+
+.precos:is(.menor) .produto-preco:hover, .precos:is(.menor) .produto-preco:focus{
+    flex-basis: 700px;
+    transition: .2s ease-in-out;
+}
+
+.precos:not(.menor) .produto-preco:has(~ .produto-preco:hover), .precos:not(.menor) .produto-preco:hover ~ .produto-preco, .precos:not(.menor) .produto-preco:has(~ .produto-preco:focus):not(:hover), .precos:not(.menor) .produto-preco:focus:not(:hover) ~ .produto-preco:not(:hover){
+    flex-basis: 2%;
+    transition: .2s ease-in-out;
+}
+
+aside.importante > h3{
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+    color: var(--cor-fundo);
+    font-weight: 800;
+    text-align: center;
+
+    background:linear-gradient(45deg, rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.268)) ,url('../assets/imgs/prontas/Lixos/Papel/papel-importante.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside.dica h3 {
+    color: var(--cor-fundo);
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+
+    background-image: linear-gradient(to right, var(--cor-h1), var(--cor-h3), var(--cor-h2));
+
+    padding: 10px;
+    margin-bottom: 10px;
+} 
+
+aside.dica p {
+    font-weight: bold;
+}
+
+article#oleonapianao {
+    margin-top: 20px;
+}
+
+article#oleonapianao h2 {
+    font-size: 4em;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-titulo);
+    color: white;
+    text-align: center;
+    
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.295)), url('../assets/imgs/prontas/Lixos/mais/oleo/imagem-fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: -10px -10px 10px -10px;
+    padding: 10px;
+    height: 100px;
+}
+
+article#oleonapianao h3 {
+    font-size: 2em;
+    color: var(--cor-h3);
+    padding: 5px;
+}
+
+article#bateria {
+    background-color: var(--cor-diferencial);
+}
+
+article#bateria h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--fonte-titulo);
+    font-weight: 900;
+    color: var(--cor-h1);
+}
+
+section#grafico-assunto {
+    margin-bottom: 20px;
+    background-color: var(--cor-diferencial);
+    padding: 30px;
+    height: 700px;
+}
+
+section#grafico-assunto h2 {
+    font-size: 4em;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-h1);
+}
+
+section#grafico-assunto h3 {
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor-h2);
+    margin: 20px;
+}
+
+section#grafico-assunto img {
+    display: block;
+    margin: auto;
+    border-radius: var(--border-radius-padrao);
+}
+
+body:not(body.javascripton) section#grafico-assunto img {
+    max-width: 750px;
+}

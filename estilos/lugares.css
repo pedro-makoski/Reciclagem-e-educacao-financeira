@@ -1,0 +1,78 @@
+#lugares h2 {
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-weight: 900;
+    color: var(--cor-h1);
+}
+
+.exemplos-locais {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.exemplos-locais .lugar {
+    width: 450px;
+    border: 2px solid var(--cor-borda-produto-preco);
+    border-radius: var(--border-radius-padrao);
+}
+
+.exemplos-locais .lugar img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+
+    border-radius: var(--border-radius-padrao);
+}
+
+.exemplos-locais .lugar .about {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: calc(100% - 325px);
+    justify-content: space-between;
+}
+
+.exemplos-locais .lugar .about h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.exemplos-locais .lugar .about strong {
+    color: var(--cor-h4);
+}
+
+.exemplos-locais .lugar .about a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid var(--cor-borda-produto-preco);
+    position: relative;
+
+    border-radius: var(--border-radius-padrao);
+}
+
+.exemplos-locais .lugar .about a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: var(--cor-h2);
+    width: 0;
+    height: 100%;
+
+    border-radius: var(--border-radius-padrao);
+
+    transition: .2s ease-in-out;
+}
+
+.exemplos-locais .lugar .about a:hover::before {
+    width: 100%;
+    transition: .2s ease-in-out;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-fundo:rgb(230, 230, 230);
+    --cor-letra-paragrafo: black;
+
+    --cor-h1: #305907;
+    --cor-h2: #6c8c4dd6;
+    --cor-h3: #6D8C4D;
+    --cor-h4: #40730E;
+
+    --cor-prenchimento-nav: #40730E;
+    --cor-fundo-header: #ACBF99;
+    --cor-logo-reciclagem: #6D8C4D;
+
+    --cor-prenchimento-prodpreco: #acbf99bb;
+    --cor-borda-produto-preco: #40730E;
+    --cor-diferencial: #6c8c4d3b;
+
+    --border-radius-padrao: 0px;
+
+    --fonte-titulo: "Trirong", serif;
+    --fonte-padrao: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--cor-fundo);
+}
+
+main, footer, header{
+    max-width: 1800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h3:not(aside h3, .informacoes-lado h3), p:not(.precos p, .roller p, .informacoes-lado > p, nav p) {
+    margin-left: 5px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+} 
+
+p:not(.roller p, nav p, nav p, .informacoes-lado > p) {
+    width: 95%;
+}

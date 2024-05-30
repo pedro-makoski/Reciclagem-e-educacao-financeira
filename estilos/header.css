@@ -1,0 +1,167 @@
+header > section.title-main {
+    background-color: var(--cor-fundo-header);
+    padding: 70px 70px 0 70px;
+    margin-bottom: 60px;
+}
+
+header > section.title-main h1 {
+    text-align: center;
+    color: var(--cor-h1);
+
+    font-family: var(--fonte-titulo);
+}
+
+body:not(body.javascripton) header > section.title-main h1 {
+    font-size: 3.5em;
+}
+
+header > section.title-main svg { 
+    filter: drop-shadow(11px 9px 0px black);
+    position: relative;
+    display: block;
+    margin: auto;
+    transform: translateY(50px);
+}
+
+body:not(body.javascripton) header > section.title-main svg {
+    max-width: 400px;
+}
+
+header > section.title-main svg path{
+    fill: var(--cor-logo-reciclagem);
+}
+
+div.espacamento {
+    margin: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: auto;
+    padding: 10px;
+    transition: .2s;
+}
+
+nav.sair {
+    top: -200px;
+    transition: .2s;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav > ul > li:not(:has(.voltar-topo)) {
+    background-color: var(--cor-prenchimento-nav);
+    padding: 10px;
+    text-align: center;
+    border-radius: var(--border-radius-padrao);
+    height: fit-content;
+}
+
+.voltar-topo {
+    background-color: transparent;
+    border: 1px solid var(--cor-borda-produto-preco);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltar-topo:hover {
+    background-color: var(--cor-diferencial);
+}
+
+.voltar-topo{
+    color: black;
+    cursor: pointer;
+}
+
+nav a, nav p {
+    text-decoration: none;
+    color: var(--cor-fundo);
+    transition: .2s;
+}
+
+.ver-cima {
+    width: 300px;
+    padding: 0px;
+}
+
+/* .ver-cima p {
+    margin: 10px;
+} */
+
+.ver-cima p:hover {
+    letter-spacing: 2px;
+}
+
+nav ul > li > ul.menu-cima {
+    list-style-type: none;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    background-color: var(--cor-fundo);
+
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+
+    padding: 0;
+    margin: 0;
+
+    border: 1px solid black;
+
+    border-radius: var(--border-radius-padrao);
+    /* width: 99.5%; */
+}
+
+nav ul > li > ul.menu-cima li {
+    text-align: left;
+    width: 100%;
+
+    border-radius: var(--border-radius-padrao);
+}
+
+nav ul > li > ul.menu-cima li a {
+    display: block;
+    padding: 5px;
+    opacity: 0;
+}
+
+.ver-cima:hover ul.menu-cima, p:focus + ul.menu-cima, ul.menu-cima:has(a:focus), ul.menu-cima:focus{
+    opacity: 1;
+}
+
+.ver-cima:hover ul.menu-cima li a, li > p:focus + ul.menu-cima li a, ul.menu-cima:has(a:focus) li a, ul.menu-cima:focus-within li a{
+    opacity: 1;
+}
+
+.ver-cima ul.menu-cima li:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+nav ul > li > ul.menu-cima > li > a {
+    color: black;
+    transition: letter-spacing .2s;
+}
+
+nav ul li:hover > a {
+    letter-spacing: 2px;
+    transition: letter-spacing .2s;
+}
+
+.hamburguer {
+    display: none;  
+}

@@ -1,0 +1,567 @@
+body{
+    border: none;
+    margin: 0;
+}
+
+main{
+    background-color: lightsalmon;
+}
+
+
+.cinquenteporcento{
+    width: 540px;
+}
+
+header{
+    position: relative;
+    color: white;
+}
+
+img.imagem-cabecalho{
+    width: 100%;
+    min-height: auto;
+}
+
+p.header-text{
+    position: absolute;
+    color: blue;
+    font-size: 5vw;
+    transform: translate(10%, -340%);
+    padding-left: 10px;
+    font-weight: bold;
+    vertical-align: inherit;
+
+}
+
+.branco{
+    display: flex;
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    margin: 0;
+
+}
+.branco2{
+    display: flex;
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    align-items: center;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+.branco3{
+    display: flex;
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+.branco4{
+    display: flex;
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    overflow-y: auto;
+    justify-content: left;
+}
+
+
+.item-ao-lado-de-imagem{
+    padding-left: 10px;
+    bottom:50px;
+    width:50%;
+    height: auto;
+}
+
+h1#texcen{
+    text-align: center;
+}
+
+
+
+p#text-branco{
+    font-size:2vw;
+    word-break: break-word;
+    padding-right: 10px;
+}
+
+p#text-wheat{
+    font-size:2vw;
+    word-break: break-word;
+}
+
+
+
+img.image-do-lado-do-texto{
+    border-radius: 50px;
+    border: 3px black solid;
+    width: 45%;
+    height: auto;   
+
+
+}
+
+h1#vermelho{
+    color: red;
+    word-break: break-word;
+}
+
+h1#azul{
+    color:blue;
+    word-break: break-word;
+}
+
+h1#amarelo{
+    color:rgb(200, 200, 0);
+    word-break: break-word;
+}
+
+h1#verde{
+    color:green;
+    word-break: break-word;
+}
+
+#preco-prod{
+    display:flex;
+    background-color: lightcyan;
+    overflow-y: auto;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+
+}
+
+#grafico-img{
+    border-radius: 50px;
+    border: 2px inset black;
+    width: 540px;
+}
+
+#grafico-img2{
+    border-radius: 50px;
+    border: 2px inset black;
+    width: 260px;
+}
+
+
+
+.deslizavel{
+    overflow-y: auto;
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.deslizavel2{
+    overflow-y: auto;
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+@media (max-width:1146px){
+    .branco3{
+        justify-content: left;
+    }
+
+    .deslizavel{
+   	    justify-content: left;
+    }
+    
+    .deslizavel2{
+        justify-content: left;
+ }
+
+    
+}
+
+@media (max-width: 768px) {
+    
+    .deslizavel{
+        overflow-y: auto;
+        display: flex;
+        padding: 25px;
+        padding-left: 20px;
+        flex-direction: row;
+    }
+
+    .deslizavel2{
+        overflow-y: auto;
+        display: flex;
+        padding: 25px;
+        padding-left: 20px;
+        flex-direction: row;
+    }
+
+    .cinquenteporcento{
+        width: 350px;
+
+    }
+
+    #grafico-img{
+        width: 350px;
+        border-radius: 50px;
+        border: 2px inset black;
+    }
+
+    .branco{
+        display: flex;
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        padding-top: 50px;
+        margin: 0;
+	justify-content:center;
+	padding-left:20px;
+    }
+    
+    .branco2{
+        display: flex;
+        width: 95%;
+        height: auto;
+        flex-direction: row;
+        padding-top: 50px;
+        overflow-y: auto;
+        justify-content: left;
+    }
+
+    .branco3{
+        display: flex;
+        width: 95%;
+        height: auto;
+        flex-direction: row;
+        padding-top: 50px;
+        overflow-y: auto;
+    }
+
+    .item-ao-lado-de-imagem{
+        bottom:50px;
+        width:90%;
+        height: auto;
+        padding-top: 35px;
+    }
+
+    
+
+    p#text-branco{
+        word-break: break-word;
+        font-size:5vw;
+    }
+
+    p#text-wheat{
+        word-break: break-word;
+        font-size:5vw;
+
+    }
+
+
+
+    img.image-do-lado-do-texto{
+        border-radius: 50px;
+        border: 3px black solid;
+        width: 90%;
+        height: auto;
+
+
+    }
+
+    h1#vermelho{
+        color: red;
+        width: 90%;
+    }
+
+    h1#azul{
+        color:blue;
+        width: 90%;
+    }
+    
+    h1#amarelo{
+        color:rgb(200, 200, 0);
+        width: 90%;
+    }
+
+    h1#verde{
+        color:green;
+        width: 90%;
+    }
+
+    #preco-prod{
+        justify-content: left;
+        padding-top: 50px;
+        padding-bottom: 35px;
+        margin: 0;
+        flex-direction: row;
+
+    }
+
+    
+
+}
+
+#lixo{
+    background-color: wheat;
+    align-items: center;
+}
+
+
+#preco-lixo{
+    background-color: lightcyan;
+
+}
+
+.imagem-demonstracao{
+    width: 300px;
+    height: auto;
+
+}
+
+
+
+#demonstracao{
+    display: flex;
+    flex-direction: row;
+    min-width: 600px;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+#demonstracao3{
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
+    padding-left: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#demonstracao2{
+    display: flex;
+    flex-direction: row;
+    min-width: 700px;
+    padding-left: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+p{
+    word-break: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h1{
+    word-break: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+h2{
+    word-break: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+
+#imagem-exemplo{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#exemplos{
+    background-color: lightsalmon;
+    flex-direction: row;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#padding-arround{
+    padding: 10px;
+}
+
+#grafico{
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    justify-content: center;
+}
+
+#informacoes-sobre-a-coleta{
+    background-color: lightblue;
+    border: 2px inset black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#importante-pizza{
+    background-image: url("cdfa13dd-e03a-4190-843c-51894c3e3005.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 60%;
+    width: 100%;
+    margin: 0;
+    height: 95px;
+    align-items:center;
+    text-align: center;
+
+}
+
+h1#branco{
+    padding-top: 50px;
+    color: white;
+    margin: 0;
+}
+
+#importante-text{
+    background-color: lightseagreen;
+    text-transform: uppercase;
+}
+
+#importante-oleo{
+    background-image: url("128d4629-1ea8-4bd1-9987-8102dd385aca.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 100px;
+    width: 100%;
+    margin: 0;
+    height: 95px;
+    align-items:center;
+    text-align: center;
+}
+
+#dica-importante{
+    color: white;
+    font-weight: bold;
+    word-break: break-word;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+footer{
+    background-color: gray;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+#footer-text{
+    word-break: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    color: white;
+    font-size:25px;
+    padding: 10px;
+}
+
+img#corte{
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+h1{
+    padding: 10px;
+}
+
+
+
+
+#lugaresparadepositar{
+    background-color: lightsteelblue;
+    overflow-y: auto;
+    
+}
+
+#local{
+    width: 350px;
+    height: 450px;
+    border: 3px inset black;
+    border-radius: 50px;
+}
+
+#imagem-local{
+    width: 350px;
+    height: auto;
+    border-bottom: 3px solid black;
+    border-radius: 50px;
+
+}
+
+
+#h1local{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+
+#span-local{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#padding-arround2{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.whiteimage{
+    background-color: white;
+}
+
+#paddin-botup{
+    padding: 10px;
+}
+
+.fundobranco{
+    background-color: white;
+}
+
+

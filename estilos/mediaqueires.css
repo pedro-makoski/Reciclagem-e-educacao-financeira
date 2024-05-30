@@ -1,0 +1,427 @@
+@media screen and (max-width: 1300px) {
+    .itens_carrossel:has(.exemplos-locais) .button_space {
+        display: flex;
+    }
+
+    .exemplos-locais {
+        overflow: scroll;
+        justify-content: start;
+        padding: 10px;
+        position: relative;
+    }
+
+    .exemplos-locais .lugar {
+        width: 400px;
+        border: 2px solid var(--cor-borda-produto-preco);
+        border-radius: var(--border-radius-padrao);
+        flex-shrink: 0;
+        margin: 0;
+    }
+
+
+    .exemplos-locais .lugar .about a{
+        font-size: 1em;
+    }
+
+    .exemplos-locais::-webkit-scrollbar {
+        width: 1px;
+    }
+      
+    .exemplos-locais::-webkit-scrollbar-thumb {
+       background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .precos {
+        justify-content: flex-start;
+        position: relative;
+        padding-left: 0;
+        gap: 0;
+        padding: 0;
+        overflow-x: scroll;
+        height: auto;
+    }
+
+    .precos.menor {
+        justify-content: start;
+    }
+
+    .precos .produto-preco {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .precos::-webkit-scrollbar {
+        width: 1px;
+      }
+      
+    .precos::-webkit-scrollbar-thumb {
+       background-color: transparent;
+    }
+
+    .precos .produto-preco img {
+        width: 50%;
+        flex-basis: 50%;
+    }
+
+    .produto-preco {
+        flex-basis: 90% !important;
+        flex-shrink: 0 !important;
+        
+        transition: .2s ease-in-out;
+    }
+
+    .precos:not(.menor) .produto-preco:hover img, .precos:not(.menor) .produto-preco:focus img {
+        flex-basis: 50%;
+        width: 50%;
+    }
+
+    .precos .produto-preco:last-child .about strong {
+        font-size: 1.5em;
+    }
+    
+    .precos .produto-preco .about p {
+        text-align: center;
+    }
+
+    .precos .produto-preco .about {
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    #pp .about{
+        flex-direction: row;
+        gap: 30px;
+        width: 90%;
+        flex-wrap: wrap;
+    } 
+
+    .precos .produto-preco:not(#pp) .about h4 {
+        width: 90vw;
+        text-wrap: wrap;
+        word-wrap: break-word;
+    }
+
+    .precos .produto-preco .about h4 {
+        font-size: max(2vw, 2em);
+    }
+
+    img#perfil {
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+
+    .itens_carrossel:has(.precos) .button_space {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    header > section.title-main svg {
+        width: 50%;
+    }
+    
+    body.javascripton [data-animation]{
+        transition: 0s !important;
+        transform: translate(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+
+    article#oleonapianao h2 span {
+        position: static;
+        left: 0;
+        transform: translate(0, 0);
+    }
+    
+    .hamburguer {
+        position: fixed;
+        width: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border: none;
+        left: 0;
+        top: 0;
+        margin: 10px;
+        background-color: transparent;
+    } 
+
+    .hamburguer .traco {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: gray;
+        transform-origin: center;
+        transition: .2s ease-in-out;
+    }
+
+    button.ativo .traco:nth-child(1) {
+        rotate: 45deg;
+        position: absolute;
+        top: 10px;
+        transition: .2s ease-in-out;
+        background-color: red;
+    }
+
+    button.ativo .traco:nth-child(2) {
+        display: none;
+    }
+
+    button.ativo .traco:nth-child(3) {
+        rotate: -45deg;
+        position: absolute;
+        top: 10px;
+        transition: .2s ease-in-out;
+        background-color: red;
+    }
+
+    body.phone .button_space:last-child, body.phone .button_space:first-child {
+        height: fit-content;
+        top: 50%;
+    }
+
+    nav {
+        background-color: transparent;
+        z-index: 4;
+    }
+
+    nav > ul{
+        display: none;
+        width: 80%;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 40px;
+
+        transition: .2s ease-in-out;
+        overflow: hidden;
+    }
+
+    button.ativo + ul {
+        display: flex;
+        height: max-content;
+        flex-direction: row;
+        position: fixed;
+        flex-wrap: wrap;
+        background-color: var(--cor-fundo);
+        padding: 10px;
+        box-shadow: 30px 30px 30px 10px rgba(0, 0, 0, 0.551);
+        overflow: auto;
+
+        transition: .2s ease-in-out;
+    }
+
+    button.ativo + ul > li {
+        height: fit-content;
+        width: 100%;
+    }
+
+    button.ativo + ul > li:has(.menu-cima) {
+        background-color: var(--cor-fundo);
+        padding: 0;
+    }
+
+    .voltar-topo {
+        width: 100%;
+        border-radius: var(--border-radius-padrao);
+    }
+
+    button.ativo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ver-cima ul.menu-cima {
+        display: block; 
+        opacity: 1;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 9px;
+        background-color: var(--cor-fundo);
+
+        border: none;
+        position: relative;
+
+    }
+
+    .ver-cima ul.menu-cima a {
+        opacity: 1;
+    }
+
+    .ver-cima ul.menu-cima li {
+        padding: 10px;
+        background-color: rgb(200, 200, 200);
+        text-align: center;
+        width: 100%;
+    }
+
+    .ver-cima {
+        background-color: white;
+    }
+
+    .ver-cima p {
+        color: black;
+        margin: 20px 5px;
+        text-align: left;
+    }
+
+    .ver-cima p:hover {
+        letter-spacing: 0.1px;
+    }
+
+    .imagem-complementar {
+        display: none;
+    }
+
+    section.lixosreciclaveis article h2 {
+        font-size: 10vw; 
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        text-wrap: wrap;
+        word-wrap: break-word;
+    }
+
+    section.lixosreciclaveis article#papel h2 {
+        font-size: 7vw;
+    }
+
+
+    section.lixosreciclaveis article > .duas-colunas h3, section.lixosreciclaveis article section > h3{
+        font-size: min(8vw, 3em);
+        margin-left: 10px;
+    }
+
+    section.lixosreciclaveis > article > img {
+        width: 60vw;
+    }
+
+
+    .duas-colunas {
+        flex-direction: column;
+    }
+
+    .duas-colunas img{
+        margin: auto;
+        width: 100%;
+    }
+
+    p:not(.roller p, nav p, header p, .precos p, header p){
+        margin: 10px;
+        width: 95%;
+    }
+
+    section.lixosreciclaveis .graficos {
+        width: 95.5vw;
+        margin-left: 10px;
+    }
+
+    section.lixosreciclaveis .graficos .grafico {
+        flex-basis: 90%;
+    }
+
+    section.lixosreciclaveis .graficos .grafico h4 {
+        font-size: min(1.2em, 10vw);
+    }
+
+    section.lixosreciclaveis .graficos .grafico img{
+        height: fit-content;
+    }
+
+    article#oleonapianao h2 {
+        font-size: 10vw;
+    }
+
+    header > section.title-main {
+        padding:70px 10px;
+    }
+
+    header > section.title-main > h1.animate{
+        font-size: 2em;
+    }
+
+    header > section.title-main h1 br {
+        display: none;
+    }
+
+    h3:not(aside h3){
+        margin-left: 10px;
+    }
+
+    section.lixosreciclaveis article > h3{
+        margin-left: 5px;
+    }
+
+    section#grafico-assunto {
+        height: 800px;
+        padding: 5px;
+    }
+
+    section#grafico-assunto h2 {
+        font-size: min(10vw, 4em);
+    }
+
+    section#grafico-assunto h3 {
+        font-size: min(2em, 5vw);
+        width: 95vw;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    section#grafico-assunto img {
+        width: 95vw;
+    }
+
+    #lugares h2, article#bateria h2{
+        font-size: 2em;
+    }
+
+    footer div.lado-esquerdo{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-height: 600px) and (max-width: 1000px) {
+    nav > button.ativo + ul {
+        overflow: scroll;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .precos .produto-preco .about strong {
+        font-size: 8vw;
+    }
+
+    .precos .produto-preco .about h4 {
+        font-size: 10vw;
+    }
+
+    .precos .produto-preco .about p {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .exemplos-locais .lugar{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 900px){
+    header > .espacamento > p {
+        margin: 20px auto;
+        width: 70%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,244 @@
+[header]
+
+    Título 1: Reciclagem e educação financeira
+    [imagem símbolo reciclagem]
+
+    A reciclagem é algo muito importante para o nosso dia a dia inclusive apenas 4% do lixo atual é reciclado, por isso neste artigo vamos mostrar como funciona a reciclagem de lixo e quanto esse lixo vale economicamente. assim podendo fazer sua parte num mundo mais sustentavel.
+
+    [menu]
+        - Plástico
+        - Papel ou papelão
+        - Metal
+        - Vidro
+        - Mais
+            - Óleo
+            - Bateria
+            - Gráfico sobre o assunto
+            - Lugares para comprar
+    [/menu]
+[/header]
+[main]
+    [secao-lixos]
+        [artigo 1]
+            Título 2: LIXO PLÁSTICO
+            no lixo plástico que é o vermelho jogamos os lixos que são de plastico desde aquele plastico de sacola até plasticos mais robustos como as garrafas plasticas.
+            [img-lixo]
+            Título 3: Gráficos sobre o assunto
+                Titulo 4: Gráfico geral de preços
+                    [img]
+                Título 4: Grafico de taxa de lixo plástico reciclado em 2020 no Brasil
+                    [img] 
+            [img-exemplo]
+            Título 3: Produtos e seus preços
+            [p1]
+                [img]
+                Titulo 4: PET
+                R$ 1,50
+                o quilo
+            [/p1]
+            [p2]
+                [img]
+                Título 4: PEAD
+                R$ 1,00
+                o quilo
+            [/p2]
+            [p3]
+                [img]
+                Titulo 4: Sacolas plásticas
+                R$ 0,20
+                o quilo
+            [/p3]
+            [p4]
+                [img]
+                Título 4: PP BRANCO
+                R$ 0,70
+                o quilo.
+                Título 4: PP COLORIDO
+                R$ 0,30
+                o quilo.
+                Titulo 4: PP
+                cerca de R$ 4,00
+                o quilo tendo variações.
+            [/p4]
+        [/artigo 1]
+        [artigo 2]
+            Título 2: LIXO PAPEL OU PAPELÃO
+            no lixo do papelão e do papel que é o azul, se joga lixos feitos de papel ou Papelão, como, por exemplo papel, caixas sem gordura e entre outros.
+            [img-lixo-azul]
+            [graficos]
+                titulo 3: Gráficos sobre o assunto
+                [grafico1]
+                    título 4: Gráfico de preços
+                    [img]
+                    título 4: taxas de embalagem longa vida recicladas no Brasil em 2021
+                    [img]
+                    título 4: taxas de papéis reciclados no Brasil em 2019
+                    [img]
+                [/grafico1]
+            [/graficos]
+            [exemplos-img]
+            Título 3: Produtos e seus preços
+                [p1]
+                    [img]
+                    Titulo 4: Papelão
+                    R$ 0,20
+                    o quilo.
+                [/p1]
+                [p2]
+                    [img]
+                    Título 4: Papel Branco
+                    R$ 0,14
+                    o quilo.
+                [/p2]
+                [importante]
+                    título 3: importante
+                    QUANDO O LIXO RECICLÁVEL ESTA SUJO, E ASSIM NÃO CONSEGUE SER LIMPO DEVE-SE JOGAR NO LIXO ORGÂNICO, COMO, POR EXEMPLO O PAPEL HIGIÉNICO E A PARTE DA CAIXA DA PIZZA SUJA DE GORDURA, POR EXEMPLO.
+                [/importante]
+        [/artigo 2]
+        [artigo 3]
+            Título 2: LIXO METAL
+            no lixo de metal, que é o amarelo jogamos lixos de metal como latinhas, alumínio e entre outros tipos de metais.
+            [img-lixo-amarelo]
+            [graficos]
+                titulo 3: Gráficos sobre o assunto
+                [grafico1]
+                    título 4: Gráfico de preços
+                    [img]
+                    título 4: taxa de latas de aço recicladas em 2019 no Brasil
+                    [img]
+                    título 4: taxa de latas de alumínio recicladas no Brasil em 2021
+                    [img]
+                [/grafico1]
+            [/graficos] 
+            [exemplos-img]
+            Título 3: Produtos e seus preços
+                [p1]
+                    [img]
+                    Titulo 4: Latinha de alumínio
+                    R$ 5,00
+                    o quilo.
+                [/p1]
+                [p2]
+                    [img]
+                    Título 4: Perfil
+                    R$ 6,00
+                    o quilo.
+                [/p2]
+                [p3]
+                    [img]
+                    Título 4: Calha
+                    R$ 4,00
+                    o quilo.
+                [/p3]
+                [p4]
+                    [img]
+                    Título 4: Sucata de ferro
+                    R$ 0,40
+                    o quilo.
+                [/p4]
+                [p5]
+                    [img]
+                    Título 4: Metal
+                    R$ 12,00
+                    o quilo.
+                [/p5]
+                [p6]
+                    [img]
+                    Título 4: Cobre
+                    R$ 32,00
+                    o quilo.
+                [/p6]
+        [/artigo 3]
+        [artigo 4]  
+            Título 2: LIXO VIDRO
+            no lixo de vidro que é o verde, jogamos vidros como, por exemplo recipientes de vidro, Cacos de vidro e entre outros tipos de vidros.
+            [img-lixo-verde]
+            [graficos]
+                titulo 3: Gráficos sobre o assunto
+                [grafico1]
+                    título 4: Gráfico de preços
+                    [img]
+                    título 4: taxas de vidros reciclados no Brasil no ano de 2018
+                    [img]
+                [/grafico1]
+            [/graficos]
+            [exemplos-img]
+            Título 3: Produtos e seus preços
+                [p1]
+                    [img]
+                    Titulo 4: Caco de vidro
+                    R$ 0,20
+                    o quilo.
+                [/p1]
+            Título 3: Dica
+                JOGAR OS CACOS DE VIDRO, EM RECIPIENTES PARA EVITAR O RASGO DA SACOLA
+        [/artigo 4]
+    [/secao-lixos]
+    [artigo 5]
+        Título 2: Óleo na pia não
+        O ÓLEO NÃO PODE SER JOGADO NA PIA TEM QUE SER JOGADO NOS AMBIENTES CORRETOS, você pode vender em coletas seletivas de reciclagem, veja o PREÇOS de venda a SEGUIR:
+        Título 3: Preço da venda do óleo
+        [p1]
+            título 4: Óleo
+            R$ 1,00
+            o litro
+        [/p1]
+    [/artigo 5]
+    [artigo 6]
+        título 2: preço da venda da bateria
+        [p1]
+            título 3: Bateria 
+            R$ 2,00
+            o quilo
+        [/p1]
+    [/artigo 6]
+    [artigo 7]
+        Título 2: Gráficos sobre o assunto
+        título 3: renda dos catadores de lixo ao redor do mundo por ano em relação ao Brasil
+        [img]
+    [/artigo 7]
+    [artigo 8]
+        título 2: Lugares para vender resíduos recicláveis
+        [l1]
+            [img-https://lh5.googleusercontent.com/p/AF1QipOiRwS9j3bAsGlqxxO1VQ22yHHvdlknyCYXB_XX=w408-h306-k-no]
+            título 3: Reciclagem Uranio
+            endereço: Reciclagem Uranio - R. Achilles Stenghel Colle, 540 - Rio Verde, Colombo - PR, 83405-390
+            telefone: telefone: (41) 3663-5656
+            [link]
+                acesse aqui no Google Maps
+                https://www.google.com/maps/place/Reciclagem+Uranio/@-25.3530692,-49.2294483,13z/data=!4m10!1m2!2m1!1spostos+de+reciclagem+colombo!3m6!1s0x94dce8af6566847d:0x6e7789643e257b0c!8m2!3d-25.376813!4d-49.1962196!15sChxwb3N0b3MgZGUgcmVjaWNsYWdlbSBjb2xvbWJvWh4iHHBvc3RvcyBkZSByZWNpY2xhZ2VtIGNvbG9tYm-SARByZWN5Y2xpbmdfY2VudGVy4AEA!16s%2Fg%2F11clwn4460?entry=ttu
+            [/link]
+        [/l1]
+        [l2]
+            [img-https://lh5.googleusercontent.com/p/AF1QipOiMquqWjHWx0JDXAwiXwc4DHNNhTsAZ8U9G_6h=w408-h306-k-no]
+            título 3: Reciclagem Moreira
+            endereço: Rua Aurora Budel Alberti, 461 - São Dimas, Colombo - PR, 83411-115
+            telefone: (41) 3606-8622
+            [link]
+                acesse aqui no Google Maps
+                https://www.google.com/maps/place/Reciclagem+Moreira/@-25.376813,-49.2683174,13z/data=!4m10!1m2!2m1!1spostos+de+reciclagem+colombo!3m6!1s0x94dce91a92f3e1c1:0x336423c534b47647!8m2!3d-25.3440154!4d-49.1535797!15sChxwb3N0b3MgZGUgcmVjaWNsYWdlbSBjb2xvbWJvWh4iHHBvc3RvcyBkZSByZWNpY2xhZ2VtIGNvbG9tYm-SARByZWN5Y2xpbmdfY2VudGVy4AEA!16s%2Fg%2F11h8l2lpdq?entry=ttu
+            [/link]
+        [/l2]
+        [l3]
+            [img-https://lh5.googleusercontent.com/p/AF1QipMNMektp3TWrD3BKnr1Vg-hteULnJDcwzhswysq=w426-h240-k-no]
+            título 3: Coradin reciclagem
+            endereço: Rua Aurora Budel, Rua Aurora Budel Alberti, 616 - São Dimas, Colombo - PR, 83411-115
+            telefone: (41) 3666-2383
+            [link]
+                acesse aqui no Google Maps
+                https://www.google.com/maps/place/Coradin+Reciclagem/@-25.3445091,-49.2240829,13z/data=!4m10!1m2!2m1!1spostos+de+reciclagem+colombo!3m6!1s0x94dce91a89bb49b5:0x9bf1213439b37747!8m2!3d-25.3445091!4d-49.1519851!15sChxwb3N0b3MgZGUgcmVjaWNsYWdlbSBjb2xvbWJvkgEQcmVjeWNsaW5nX2NlbnRlcuABAA!16s%2Fg%2F1v27wn6t?entry=ttu
+            [/link]
+        [/l3]
+    [/artigo 8]
+[/main]
+[footer]
+    todos os valores disponíveis nesse site são estimativas.
+    [hr]
+    esse é um site, com o objetivo de melhorar um [link-https://pedro-makoski.github.io/Reciclagem-e-educa-o-financeira/]site antigo[link] meu, feito num projeto da escola, que pode não estar com tudo totalmente correto.
+    [strong]sempre se lembre de verificar os fatos que você vê por ai.[strong]
+    [link]
+        Pedro Makoski
+        logo github
+        https://github.com/pedro-makoski
+    [/link]
+[/footer]
