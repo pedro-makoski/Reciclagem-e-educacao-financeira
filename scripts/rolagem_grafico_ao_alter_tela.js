@@ -7,8 +7,6 @@ for(i = 1; i <= 100; i++) {
     tresshold.push(i/100)
 }
 
-console.log(tresshold.slice(50))
-
 const observer = new IntersectionObserver(debounce(entries => {
     lugares_first_child = document.querySelector('#lugares .itens_carrossel .exemplos-locais .lugar:first-child')
     lugares_last_child = document.querySelector('#lugares .itens_carrossel .exemplos-locais .lugar:last-child')

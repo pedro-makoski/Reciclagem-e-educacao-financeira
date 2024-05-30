@@ -22,7 +22,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     Array.from(elementos_animation_open).forEach(elemento => {
         setTimeout(() => {
-            console.log(elemento)
             elemento.classList.add('animate')
         }, 200)
     })
