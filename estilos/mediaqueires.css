@@ -361,7 +361,7 @@
     }
 
     section#grafico-assunto {
-        height: 800px;
+        height: auto;
         padding: 5px;
     }
 
@@ -398,6 +398,16 @@
     }
 }
 
+@media screen and (max-width: 500px){
+    .exemplos-locais {
+        margin-left: 0;
+    }
+
+    .exemplos-locais .lugar {
+        width: 87vw;
+    }
+}
+
 @media screen and (max-width: 400px){
     .precos .produto-preco .about strong {
         font-size: 8vw;
@@ -409,12 +419,6 @@
 
     .precos .produto-preco .about p {
         font-size: 5vw;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    .exemplos-locais .lugar{
-        width: 70vw;
     }
 }
 
