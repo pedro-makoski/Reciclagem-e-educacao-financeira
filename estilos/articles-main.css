@@ -403,7 +403,7 @@ section#grafico-assunto h2 {
 section#grafico-assunto h3 {
     font-size: 2em;
     text-align: center;
-    color: var(--cor-h2);
+    color: var(--cor-h1);
     margin: 20px;
 }
 
