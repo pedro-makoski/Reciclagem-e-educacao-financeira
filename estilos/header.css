@@ -7,12 +7,9 @@ header > section.title-main {
 header > section.title-main h1 {
     text-align: center;
     color: var(--cor-h1);
+    font-size: 3.5em;
 
     font-family: var(--fonte-titulo);
-}
-
-body:not(body.javascripton) header > section.title-main h1 {
-    font-size: 3.5em;
 }
 
 header > section.title-main svg { 
@@ -21,10 +18,8 @@ header > section.title-main svg {
     display: block;
     margin: auto;
     transform: translateY(50px);
-}
 
-body:not(body.javascripton) header > section.title-main svg {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 header > section.title-main svg path{
@@ -40,10 +35,10 @@ nav {
     background-color: var(--cor-fundo);
     position: sticky;
     top: 0;
-    z-index: 10;
     height: auto;
     padding: 10px;
     transition: .2s;
+    z-index: 10;
 }
 
 nav.sair {
@@ -98,10 +93,6 @@ nav a, nav p {
     padding: 0px;
 }
 
-/* .ver-cima p {
-    margin: 10px;
-} */
-
 .ver-cima p:hover {
     letter-spacing: 2px;
 }
@@ -124,7 +115,6 @@ nav ul > li > ul.menu-cima {
     border: 1px solid black;
 
     border-radius: var(--border-radius-padrao);
-    /* width: 99.5%; */
 }
 
 nav ul > li > ul.menu-cima li {

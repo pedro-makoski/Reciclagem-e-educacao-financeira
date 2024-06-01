@@ -14,7 +14,6 @@ let clicks = {
 
 function irparaesquerda(artigo, oque, local_do_scroll, item_dentro_do_local, botao_direita, botao_esquerda, valor_maximo) {
     let quanto_de_scroll = item_dentro_do_local[0].offsetWidth
-    //let cabedois = ((window.innerWidth / quanto_de_scroll) >= 2) && artigo === "lugares"
 
     botao_direita.setAttribute("onclick", "")
     botao_esquerda.setAttribute("onclick", "")
@@ -46,8 +45,6 @@ function irparaesquerda(artigo, oque, local_do_scroll, item_dentro_do_local, bot
 
 function irparadireita(artigo, oque, local_do_scroll, item_dentro_do_local, botao_direita, botao_esquerda, valor_maximo) {
     let quanto_de_scroll = item_dentro_do_local[0].getBoundingClientRect().width
-    
-    //let cabedois = ((window.innerWidth / quanto_de_scroll) >= 2) && artigo === "lugares"
 
     botao_direita.setAttribute("onclick", "")
     botao_esquerda.setAttribute("onclick", "")

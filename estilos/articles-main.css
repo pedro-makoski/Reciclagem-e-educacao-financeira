@@ -112,6 +112,7 @@ section.lixosreciclaveis .graficos .grafico {
     padding: 4px 2px;
     height: 40px;
     z-index: 3;
+    cursor: pointer;
 }
 
 .left {
@@ -122,6 +123,7 @@ section.lixosreciclaveis .graficos .grafico {
     height: 40px;
     z-index: 3;
     display: none;
+    cursor: pointer;
 }
 
 .itens_carrossel .button_space button {

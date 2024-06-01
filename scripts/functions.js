@@ -19,4 +19,8 @@ if(navigator.userAgent.match(/Android/i)|| navigator.userAgent.match(/WebOS/i) |
     isPhone = true
     body.classList.remove('pc')
     body.classList.add('phone')
+} else {
+    isPhone = false
+    body.classList.remove('phone')
+    body.classList.add('pc')
 }
