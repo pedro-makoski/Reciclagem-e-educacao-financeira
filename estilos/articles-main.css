@@ -42,9 +42,10 @@ section.lixosreciclaveis article section > h3{
     margin: 10px;
 }
 
-h4 {
+h4, .precos .produto-preco .about > h3 {
     font-size: 2em;
     color: var(--cor-h4);
+    margin-left: 0;
 }
 
 .itens_carrossel {
@@ -263,7 +264,7 @@ article .menor {
     justify-content: center;
 }
 
-.precos .produto-preco .about > h4{
+.precos .produto-preco .about > h4, .precos .produto-preco .about > h3{
     text-wrap: wrap;
     word-wrap: break-word;
     width: 200px;
