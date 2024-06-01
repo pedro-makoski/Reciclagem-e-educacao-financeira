@@ -10,3 +10,9 @@ Refiz um site antigo meu. Melhorando a partir de algumas coisas que apreendi. Cl
 ## Acesso
 Você pode ver o site [aqui](https://pedro-makoski.github.io/Reciclagem-e-educacao-financeira/#header_top). 
 E o site antigo, a qual eu melhorei [aqui](https://pedro-makoski.github.io/Reciclagem-e-educacao-financeira/pages/Reciclagem-e-educa-o-financeira-antiga/index.html), caso queira fazer uma comparação. 
+## Algumas fotos da página
+<img src="readme-imgs/01.png">
+<img src="readme-imgs/02.png">
+<img src="readme-imgs/03.png">
+<img src="readme-imgs/04.png">
+<img src="readme-imgs/05.png">
