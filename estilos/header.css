@@ -94,6 +94,10 @@ nav a, nav p {
     position: relative;
 }
 
+.ver-cima p {
+    user-select: none;
+}
+
 .ver-cima p:hover {
     letter-spacing: 2px;
 }
