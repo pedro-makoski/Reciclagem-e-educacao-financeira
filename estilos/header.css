@@ -91,6 +91,7 @@ nav a, nav p {
 .ver-cima {
     width: 300px;
     padding: 0px;
+    position: relative;
 }
 
 .ver-cima p:hover {
@@ -100,12 +101,11 @@ nav a, nav p {
 nav ul > li > ul.menu-cima {
     list-style-type: none;
     display: flex;
-    opacity: 0;
     flex-direction: column;
     background-color: var(--cor-fundo);
 
     position: absolute;
-    top: 100%;
+    top: -200vh;
     width: 100%;
     left: 0;
 
@@ -131,7 +131,7 @@ nav ul > li > ul.menu-cima li a {
 }
 
 .ver-cima:hover ul.menu-cima, p:focus + ul.menu-cima, ul.menu-cima:has(a:focus), ul.menu-cima:focus{
-    opacity: 1;
+    top: 100%;
 }
 
 .ver-cima:hover ul.menu-cima li a, li > p:focus + ul.menu-cima li a, ul.menu-cima:has(a:focus) li a, ul.menu-cima:focus-within li a{
