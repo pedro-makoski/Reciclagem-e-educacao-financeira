@@ -144,8 +144,10 @@
     }
     
     .hamburguer {
+        display: flex;
         position: fixed;
-        width: 25px;
+        width: 40px;
+        height: 40px;
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -153,12 +155,15 @@
         left: 0;
         top: 0;
         margin: 10px;
-        background-color: white;
+        background-color: var(--cor-fundo);
+        justify-content: center;
+        align-items: center;
+        border: 2px solid var(--cor-borda-produto-preco);
     } 
 
     .hamburguer .traco {
         display: block;
-        width: 100%;
+        width: 25px;
         height: 3px;
         background-color: gray;
         transform-origin: center;
@@ -168,7 +173,7 @@
     button.ativo .traco:nth-child(1) {
         rotate: 45deg;
         position: absolute;
-        top: 10px;
+        /*top: 10px;*/
         transition: .2s ease-in-out;
         background-color: red;
     }
@@ -180,7 +185,7 @@
     button.ativo .traco:nth-child(3) {
         rotate: -45deg;
         position: absolute;
-        top: 10px;
+        /*top: 10px;*/
         transition: .2s ease-in-out;
         background-color: red;
     }

@@ -15,9 +15,9 @@ const observer = new IntersectionObserver(debounce(entries => {
     botao_direita_lugares = document.querySelector('#lugares .itens_carrossel .button_space .right')
 
     Array.from(entries).forEach(entrie => {
-        if (entrie.target === lugares_last_child && entrie.isIntersecting) {
+        if (entrie.target === lugares_last_child && entrie.intersectionRect.width / entrie.target.getBoundingClientRect().width >= 1) {
             botao_direita_lugares.style.display = 'none'
-        } else if (entrie.target === lugares_first_child && entrie.isIntersecting) {
+        } else if (entrie.target === lugares_first_child && entrie.intersectionRect.width / entrie.target.getBoundingClientRect().width >= 1) {
             botao_esquerda_lugares.style.display = 'none'
         } else {
             botao_esquerda_lugares.style.display = 'flex'
