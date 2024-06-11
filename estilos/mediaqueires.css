@@ -107,7 +107,7 @@
     }
 
     .precos .produto-preco .about h4 {
-        font-size: max(2vw, 2em);
+        font-size: min(1.2em, 7vw);
     }
 
     img#perfil {
@@ -292,7 +292,7 @@
     }
 
     section.lixosreciclaveis article h2 {
-        font-size: 10vw; 
+        font-size:min(10vw, 3.5em); 
         margin: 0 auto;
         width: fit-content;
         text-align: center;
@@ -301,7 +301,8 @@
     }
 
     section.lixosreciclaveis article#papel h2 {
-        font-size: 7vw;
+        font-size: min(9vw, 3.2em);
+        width: 90vw;
     }
 
 
@@ -339,7 +340,7 @@
     }
 
     section.lixosreciclaveis .graficos .grafico h4 {
-        font-size: min(1.2em, 10vw);
+        font-size: min(1.2em, 7vw);
     }
 
     section.lixosreciclaveis .graficos .grafico img{
@@ -347,7 +348,7 @@
     }
 
     article#oleonapianao h2 {
-        font-size: 10vw;
+        font-size: min(10vw, 3.5em);
     }
 
     header > section.title-main {
@@ -376,11 +377,11 @@
     }
 
     section#grafico-assunto h2 {
-        font-size: min(10vw, 4em);
+        font-size: min(10vw, 3.5em);
     }
 
     section#grafico-assunto h3 {
-        font-size: min(2em, 5vw);
+        font-size: min(8vw, 3em);
         width: 95vw;
         margin-left: 0;
         padding-left: 0;
@@ -391,7 +392,7 @@
     }
 
     #lugares h2, article#bateria h2{
-        font-size: 2em;
+        font-size: min(10vw, 3.5em);
     }
 
     footer div.lado-esquerdo{
@@ -424,7 +425,7 @@
     }
 
     .precos .produto-preco .about h4 {
-        font-size: 10vw;
+        font-size: min(1.2em, 7vw);
     }
 
     .precos .produto-preco .about p {
