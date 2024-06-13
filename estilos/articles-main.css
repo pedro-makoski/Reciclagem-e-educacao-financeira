@@ -260,7 +260,7 @@ section.lixosreciclaveis > article > picture img{
 }
 
 .precos:not(.menor) .produto-preco:hover img, .precos:not(.menor) .produto-preco:focus img{
-    width: 350px;
+    width: 350px;   
     transition: .2s;
 }
 
@@ -301,7 +301,7 @@ body:not(.javascripton) .precos .produto-preco {
 }
 
 .precos:not(.menor) .produto-preco:hover, .precos:not(.menor) .produto-preco:focus:not(:hover){
-    flex-basis: 30%;
+    flex-basis: 40%;
     transition: .2s ease-in-out;
 }
 
