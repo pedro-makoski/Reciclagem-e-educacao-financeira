@@ -107,7 +107,7 @@
     }
 
     .precos .produto-preco .about h4 {
-        font-size: min(1.2em, 7vw);
+        font-size: min(2em, 7.5vw);
     }
 
     img#perfil {
@@ -340,7 +340,7 @@
     }
 
     section.lixosreciclaveis .graficos .grafico h4 {
-        font-size: min(1.2em, 7vw);
+        font-size: min(2em, 7.5vw);
     }
 
     section.lixosreciclaveis .graficos .grafico img{
@@ -381,7 +381,7 @@
     }
 
     section#grafico-assunto h3 {
-        font-size: min(8vw, 3em);
+        font-size: min(5vw, 2em);
         width: 95vw;
         margin-left: 0;
         padding-left: 0;
@@ -422,10 +422,6 @@
 @media screen and (max-width: 400px){
     .precos .produto-preco .about strong {
         font-size: 8vw;
-    }
-
-    .precos .produto-preco .about h4 {
-        font-size: min(1.2em, 7vw);
     }
 
     .precos .produto-preco .about p {

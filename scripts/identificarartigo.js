@@ -1,23 +1,38 @@
-const article = document.querySelectorAll('article, #header_top, #grafico-assunto')
+const articles = Array.from(document.querySelectorAll('article, #header_top, #grafico-assunto'))
 
-const observerarticle = new IntersectionObserver(debounce(entries => {
-    let i_height_maior = 0
 
-    for(let i = 0; i < entries.length; i++) {
-        if (entries[i].isIntersecting) {
-            if(entries[i].intersectionRect.height > entries[i_height_maior].intersectionRect.height) {
-                i_height_maior = i
+let tamanhos = []
+
+for(let i = 0; i < articles.length; i++) {
+    tamanhos.push(articles[i].offsetTop)
+}
+
+window.addEventListener('scroll', () => {
+    const sizes_diference = 100
+
+    setTimeout(() => {
+        for(let i = 0; i < tamanhos.length; i++) {
+            let pos_real = tamanhos[i] - DIFERENCE_NUMBER_OF_SCROLL - sizes_diference
+
+            if(tamanhos[i+1] !== undefined) {
+                if(window.scrollY >= pos_real && window.scrollY <= tamanhos[i+1]) {
+                    if(window.location.hash.slice(1) !== articles[i].id) {
+                        let local = window.location.protocol + '//' + window.location.host + window.location.pathname + '#' + articles[i].id
+                        window.history.replaceState({}, '', local)
+                    } else {
+                        i = tamanhos.length
+                    }
+                }
+            } else {
+                if(window.scrollY >= pos_real) {
+                    if(window.location.hash.slice(1) !== articles[i].id) {
+                        let local = window.location.protocol + '//' + window.location.host + window.location.pathname + '#' + articles[i].id
+                        window.history.replaceState({}, '', local)
+
+                        i = tamanhos.length
+                    }
+                }
             }
         }
-    }
-    
-    let local = window.location.protocol + '//' + window.location.host + window.location.pathname + '#' + entries[i_height_maior].target.id
-    window.history.replaceState({}, '', local)
-    
-}, 100), {
-    threshold: tresshold
-})
-
-Array.from(article).forEach(artigo => {
-    observerarticle.observe(artigo)
+    }, 100)
 })

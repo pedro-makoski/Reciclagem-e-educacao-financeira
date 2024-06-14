@@ -67,14 +67,18 @@ Array.from(links_nav).forEach((link) => {
 
 })
 
+const DIFERENCE_NUMBER_OF_SCROLL = 90
+
 function scrolltosection(elemento, e) {
     e.preventDefault()
 
     const id = elemento.getAttribute('href');
     let to = document.querySelector(id).offsetTop;
 
+    console.log(to)
+
     window.scroll({
-        top: to - 90,
+        top: to - DIFERENCE_NUMBER_OF_SCROLL,
         behavior: "smooth"
     });
 }
