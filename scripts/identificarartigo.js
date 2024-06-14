@@ -7,6 +7,14 @@ for(let i = 0; i < articles.length; i++) {
     tamanhos.push(articles[i].offsetTop)
 }
 
+window.addEventListener('resize', () => {
+    tamanhos = []
+
+    for(let i = 0; i < articles.length; i++) {
+        tamanhos.push(articles[i].offsetTop)
+    }
+})
+
 window.addEventListener('scroll', () => {
     const sizes_diference = 100
 
