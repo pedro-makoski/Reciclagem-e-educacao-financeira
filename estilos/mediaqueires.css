@@ -355,6 +355,10 @@
         padding:70px 10px;
     }
 
+    header > section.title-main h1 {
+        font-size: 10vw;
+    }
+
     header > section.title-main > h1.animate{
         font-size: 2em;
     }
