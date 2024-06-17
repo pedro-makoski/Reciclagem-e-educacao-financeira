@@ -29,6 +29,7 @@ header > section.title-main svg path{
 div.espacamento {
     margin: 10px;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -56,10 +57,14 @@ nav > ul {
 
 nav > ul > li:not(:has(.voltar-topo)) {
     background-color: var(--cor-prenchimento-nav);
-    padding: 10px;
     text-align: center;
     border-radius: var(--border-radius-padrao);
     height: fit-content;
+}
+
+nav > ul > li:not(:has(.voltar-topo)) a, nav > ul > li:not(:has(.voltar-topo)) p{
+    display: block;
+    padding: 10px;
 }
 
 .voltar-topo {
